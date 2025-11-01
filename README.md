@@ -41,8 +41,8 @@ We have provided detailed instructions for model training details.
 - Clone this repo:
 
 ```bash
-conda create -n dt python=3.10 -y
-conda activate dt
+conda create -n agristf python=3.10 -y
+conda activate agristf
 git clone https://github.com/CAU-COE-VEICLab/AgriSTF.git
 cd AgriSTF
 ```
@@ -63,7 +63,7 @@ To train the any model's encoder on your dataset, run:
 
 ```bash
 python -m torch.distributed.launch --nproc_per_node <num-of-gpus-to-use> main_mpsr.py \ 
---cfg <config-file> --data-path <imagenet-path>/train [--batch-size <batch-size-per-gpu> --output <output-directory> --tag <job-tag>]
+--cfg <config-file> --data-path <data-path> [--batch-size <batch-size-per-gpu> --output <output-directory> --tag <job-tag>]
 ```
 
 To train the SwinUnet's encoder on your dataset, run:
@@ -71,7 +71,7 @@ For example, to pre-train SwinUnet's encoder, run:
 
 ```bash
 python -m torch.distributed.launch --nproc_per_node 16 main_simmim.py \ 
---cfg configs/swinunet_mpsr_100epoch/mpsr_pretrain_swinunet_100ep_256 --batch-size 128 --data-path <imagenet-path>/train [--output <output-directory> --tag <job-tag>]
+--cfg configs/swinunet_mpsr_100epoch/mpsr_pretrain_swinunet_100ep_256 --batch-size 128 --data-path <data-path> [--output <output-directory> --tag <job-tag>]
 ```
 
 
