@@ -11,7 +11,7 @@
     <a>Yuefeng Du*</a>;
 </div>
 
-<h3><strong>submitted to Knowledge-Based Systems in 2025</strong></h3>
+<h3><strong>submitted to Expert Systems With Applications in 2025</strong></h3>
 
 </div>
 
