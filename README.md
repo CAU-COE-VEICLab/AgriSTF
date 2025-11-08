@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>AgriSTF: A Unified Training Framework for Agricultural Image Segmentation via Masked Image Modeling</h1> 
+<h1>AgriSTF: A Unified Training Framework for Agricultural Image Segmentation via Masked Pixel-Semantic Reconstruction</h1> 
 
 <div>
     <a>Guorun Li</a>;
