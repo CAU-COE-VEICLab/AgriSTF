@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>AgriSTF: A Unified Training Framework for Agricultural Image Segmentation via Masked Pixel-Semantic Reconstruction</h1> 
+<h1>A Unified Training Framework with Masked Pixel–Semantic Reconstruction for Agricultural Image Segmentation</h1> 
 
 <div>
     <a>Guorun Li</a>;
@@ -11,7 +11,7 @@
     <a>Yuefeng Du*</a>;
 </div>
 
-<h3><strong>submitted to Expert Systems With Applications in 2025</strong></h3>
+<h3><strong>submitted to Computers and Electronics in Agriculture in 2026</strong></h3>
 
 </div>
 
