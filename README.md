@@ -21,6 +21,7 @@
 **Notes**:
 - At the core of AgriSTF is the proposed masked pixel-semantic reconstruction (MPSR) method in Stage 1.
 - So, we only release MPSR's code.
+- If you want to train segmenation model, please see our codebase CS-Net[https://github.com/CAU-COE-VEICLab/Simple-Attention] 
 
 
 
