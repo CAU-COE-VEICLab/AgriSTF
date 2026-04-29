@@ -17,11 +17,12 @@
 
 ## 🏠 TODOs
 * [x] MPSR model.
+* [x] test set of scenario 2,3,4
 
 **Notes**:
 - At the core of AgriSTF is the proposed masked pixel-semantic reconstruction (MPSR) method in Stage 1.
 - So, we only release MPSR's code.
-- If you want to train segmenation model, please see our codebase CS-Net[https://github.com/CAU-COE-VEICLab/Simple-Attention] 
+- If you want to train segmenation models, please see our codebase CS-Net[https://github.com/CAU-COE-VEICLab/Simple-Attention] 
 
 
 
@@ -36,7 +37,7 @@ Accurate agricultural image segmentation (AIS) is crucial for ensuring food secu
 ![5](figures/attention_maps.jpg)
 
 ## 🎁 Pre-Training 
-We have provided detailed instructions for model training details. 
+We have provided detailed instructions for model training. 
 
 ### Install
 - Clone this repo:
