@@ -18,6 +18,7 @@
 ## 🏠 TODOs
 * [✅️] MPSR model.
 * [✅️] test set of scenario 2,3,4 [https://drive.google.com/file/d/1xrmiq0CbCNBZInxz0e6KOsUDOtWYiNpK/view?usp=drive_link]
+* 
 **Notes**:
 - At the core of AgriSTF is the proposed masked pixel-semantic reconstruction (MPSR) method in Stage 1.
 - So, we only release MPSR's code.
