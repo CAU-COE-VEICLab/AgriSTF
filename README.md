@@ -11,7 +11,7 @@
     <a>Yuefeng Du*</a>;
 </div>
 
-<h3><strong>submitted to Computers and Electronics in Agriculture in 2026</strong></h3>
+<h3><strong>published in Computers and Electronics in Agriculture in 2026</strong></h3>
 
 </div>
 
