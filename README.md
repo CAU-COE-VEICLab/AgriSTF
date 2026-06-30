@@ -85,3 +85,17 @@ Thanks for their great works!
 
 
 ## Citation
+
+@article{LI2026112096,
+title = {A unified training framework with masked pixel–semantic reconstruction for agricultural image segmentation},
+journal = {Computers and Electronics in Agriculture},
+volume = {252},
+pages = {112096},
+year = {2026},
+issn = {0168-1699},
+doi = {https://doi.org/10.1016/j.compag.2026.112096},
+url = {https://www.sciencedirect.com/science/article/pii/S0168169926006915},
+author = {Guorun Li and Yucong Wang and Wang Liu and Yuefeng Du and Lei Liu and Xiaoyu Li and Zhenghe Song},
+keywords = {Agricultural image segmentation, Unified training framework, Self-supervised learning, Masked image modeling, Pixel-semantic reconstruction},
+abstract = {Accurate agricultural image segmentation (AIS) is crucial for ensuring food security, enhancing agricultural production efficiency, and improving resource utilization. However, constrained by the seasonal nature of agricultural production, incomplete sensor networks, and the specialized nature of annotation, segmentation models trained under data-scarce conditions face challenges of overfitting and poor generalization capabilities. To enhance segmentation accuracy and generalization capabilities of existing models under existing labeled data, this study proposed a two-stage unified training framework for agricultural image segmentation models, named AgriSTF. The first stage employs the developed Masked Pixel-Semantic Reconstruction (MPSR) for self-supervised pretraining of the segmentation model’s encoder. The second stage utilizes labeled data for supervised fine-tuning of the segmentation model. MPSR defines the self-supervised proxy task as jointly predicting masked pixels and semantic tokens, establishing bidirectional constraints between local details and high-level semantics through a carefully designed Joint Decoder. Over 600 experiments conducted across five AIS tasks and seven representative baselines demonstrated that AgriSTF consistently improved baseline accuracy without requiring additional data, achieving competitive results even in settings utilizing only 50% of training epochs or only 50% of labeled data. Additionally, comprehensive ablation experiments were conducted to investigate the optimal hyperparameter settings for MPSR. AgriSTF is model agnostic and data efficient, providing a new approach for training under existing labeled data and showing the potential to become a foundational training paradigm for developing AIS models under limited-data conditions in the future. The code is available at: https://github.com/CAU-COE-VEICLab/AgriSTF.}
+}
